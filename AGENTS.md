@@ -113,6 +113,15 @@ Known Page Map (baseline under `user-docs/`)
 - Admin: `admin-guide/` (overview, stores, products, mapping, fixed vs open‑ended, scholarships/seats, wholesale, supplemental info, registration fields, orders, extensions/payments, reporting)
 - Reference: `reference/glossary.md`, `nopcommerce/index.md`
 
+Editors’ Reference (nopCommerce)
+- Use the local `nopCommerce-Docs-master/en/` copy to inform structure and terminology when writing or revising docs. Do not copy content verbatim.
+- Helpful paths:
+  - `getting-started/` — admin area overview, design your store, configure payments
+  - `running-your-store/catalog/` — products, categories, attributes, downloadable/recurring/rental
+  - `running-your-store/order-management/` — orders, returns, shipping management
+  - `running-your-store/customer-management/` — roles, ACL
+- Map our Admin Guide topics to these areas (Getting Started vs Running Your Store) and adapt instructions to our hosted context and NexPort enhancements (mapping, seats, organization purchases).
+
 Contact
 - If requirements change (new flows, labels), update both the relevant page(s) and this AGENTS file when guidance needs to change.
 
