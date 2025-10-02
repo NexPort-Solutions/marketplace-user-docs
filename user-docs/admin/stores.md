@@ -15,7 +15,7 @@ Sale model (retail/wholesale)
 
 Default subscription organization
 1) Open the store editor.
-2) In the `Nexport Organization Subscription` section, search and select the organization (predictive search is supported).
+2) In the `NexPort Organization Subscription` section, search and select the organization (predictive search is supported).
 3) Click `Set` to store the org GUID.
 4) Save.
 
@@ -23,3 +23,7 @@ Notes
 - Store‑level defaults (like subscription org) are used when product mappings don’t override them.
 - Some features (e.g., custom registration fields) can be scoped to specific stores.
 
+## See also (nopCommerce)
+- Your store information: https://docs.nopcommerce.com/en/getting-started/advanced-configuration/your-store-information.html
+- Email accounts: https://docs.nopcommerce.com/en/getting-started/email-accounts.html
+- Security settings: https://docs.nopcommerce.com/en/getting-started/advanced-configuration/security-settings.html

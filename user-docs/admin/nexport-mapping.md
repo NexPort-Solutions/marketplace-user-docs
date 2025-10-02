@@ -1,16 +1,16 @@
 # NexPort Mapping
 
-Mapping connects a NopCommerce product to a NexPort product/section and defines store‑specific behavior.
+Mapping connects a nopCommerce product to a NexPort product/section and defines store‑specific behavior.
 
 Where to find mapping
 - Edit a product and scroll to `NexPort Product Mappings`.
-- Use `View Nexport Product` to switch to the mapping section, or `Synchronize from Nexport` after section updates.
+- Use `View NexPort Product` to switch to the mapping section, or `Synchronize from NexPort` after section updates.
 - Use the mapping search/filter above the list.
 
 Create the default mapping
 1) Edit the product.
 2) Click `Create/Edit Mapping` (Default Mapping). Other mapping actions are disabled until a default exists.
-3) In the mapping window, select the target Nexport product/section.
+3) In the mapping window, select the target NexPort product/section.
 4) Choose `Auto‑redeem` or keep manual redemption.
 5) Save.
 
@@ -29,5 +29,4 @@ Editing, deleting, and copying mappings
 
 Best practices
 - Prefer auto‑redeem for frictionless learner experiences unless supplemental intake is required.
-- Do not change NopCommerce order status manually; let the plugin update the order when redemption occurs.
-
+- Do not change nopCommerce order status manually; let the plugin update the order when redemption occurs.

@@ -21,6 +21,27 @@ Authoring Rules (GitBook‑Friendly)
 - Keep pages focused; split very long topics when a natural break exists.
 - No secrets, tokens, or internal bug‑tracker links in public docs.
 
+Interleaving nopCommerce Docs (Single‑System Voice)
+- Treat NexPort Marketplace as a unified system built on nopCommerce. Write flows as “how to do X in NexPort Marketplace,” then add callouts for “NexPort enhancements” where behavior differs from stock nopCommerce.
+- Do not duplicate nopCommerce content verbatim. Summarize briefly in our words, then link to the canonical page at `https://docs.nopcommerce.com/en/...` for deeper detail.
+- Add a short "See also (nopCommerce)" section at the end of relevant admin pages with 2–4 curated links.
+- When a nopCommerce feature is required by a NexPort feature (e.g., Categories before Products), mention that dependency inline and link to the relevant nopCommerce page.
+
+Out‑of‑Scope nopCommerce Topics (Hosted‑Only Policy)
+- We are a fully hosted solution. Exclude or avoid linking to:
+  - Installation and upgrading guides (local, Windows/Linux, Azure, pre‑installed)
+  - Hosting provider lists, private cloud, premium services, “hire a partner” marketing pages
+  - Server configuration content not applicable to hosted tenants
+- It is OK to link to admin‑area usage topics (catalog, orders, customers, discounts, ACL, security settings) that apply within our hosted environment.
+
+Linking Rules for nopCommerce
+- Prefer `docs.nopcommerce.com/en/...` URLs (not raw GitHub).
+- Link only to sections relevant to day‑to‑day administration:
+  - Admin area overview; Catalog (products, categories, attributes, downloadable/recurring/rental as applicable); Orders (order management, returns); Customers (roles, ACL);
+  - Payments (payment methods, currencies), Taxes (if applicable), Discounts & coupons; Content/messages when used.
+- Do not link to installation, upgrade, hosting, private cloud, or premium services.
+- If a link would expose features we don’t support in hosted plans, omit it or add a clarifying note.
+
 Project Structure
 - `user-docs/` — GitBook docs root
   - `README.md` — Overview/landing page
@@ -32,7 +53,7 @@ Project Structure
 - Repo root — Reference source materials only (e.g., whitepaper PDF, workflow docs, test suite). Do not reference internal links/IDs in published docs.
 
 Style & Terminology
-- Product names: NexPort Marketplace, NexPort Campus, NopCommerce.
+- Product names: NexPort Marketplace, NexPort Campus, nopCommerce.
 - Use Title Case for section headers; sentence case for body text.
 - Prefer active voice and present tense.
 - Keep link text meaningful (avoid “click here”).
@@ -41,6 +62,7 @@ Style & Terminology
 Navigation Updates
 - Any new page must be added to `user-docs/SUMMARY.md` to appear in GitBook navigation.
 - Use lower‑case filenames with hyphens: `my-new-page.md`.
+ - Where relevant, include a short "See also (nopCommerce)" list at the bottom of the page.
 
 Content Sources (internal)
 - Whitepaper (`Nexport Market Whitepaper.pdf`)
@@ -52,6 +74,10 @@ Operational Notes
 - Do not document or recommend manually setting NopCommerce order status to Complete for mapped products (breaks redemption).
 - Call out store‑level differences when features vary by brand/environment.
 - Use examples with placeholder or example domains; avoid exposing real customer data.
+
+Versioning & Link Maintenance
+- Pin guidance to a supported nopCommerce major.minor baseline (e.g., 4.60/4.70) when possible; update links if the docs structure changes.
+- Perform a quarterly link check for external references; repair or replace as needed.
 
 Contribution Workflow
 - One topic per PR; keep diffs small and focused.
@@ -67,4 +93,3 @@ Known Page Map (baseline under `user-docs/`)
 
 Contact
 - If requirements change (new flows, labels), update both the relevant page(s) and this AGENTS file when guidance needs to change.
-

@@ -4,12 +4,14 @@ coverY: 0
 
 # Overview
 
-<code class="expression">space.vars.PRODUCT_NAME</code> is a multi‑store e‑commerce layer for distributing learning products in the NexPort Learning Platform. It integrates with NopCommerce for storefront, payments, and extensibility, and with NexPort Campus for identity, enrollments, subscriptions, and training delivery.
+<code class="expression">space.vars.PRODUCT_NAME</code> is a multi‑store e‑commerce layer for distributing learning products in the NexPort Learning Platform. It integrates with nopCommerce for storefront, payments, and extensibility, and with NexPort Campus for identity, enrollments, subscriptions, and training delivery.
 
 This documentation covers:
 
 * End‑user guidance for browsing, purchasing, and redeeming training
 * Admin guidance for configuring stores, products, mappings to NexPort, and workflows (scholarships, wholesale, libraries)
+
+> Note: Hosted‑only. This documentation applies to hosted NexPort Marketplace tenants. Installation, server configuration, hosting provider content, private cloud, and premium services are out of scope.
 
 Key capabilities
 
@@ -25,11 +27,11 @@ If you’re new, start with End User → Getting Started, then see Admin → Pro
 
 ## Terminology
 
-* Store: A branded storefront (NopCommerce) within NexPort Marketplace.
-* Product (NopCommerce): An item listed in a store (can map to a NexPort product/section).
+* Store: A branded storefront (nopCommerce) within NexPort Marketplace.
+* Product (nopCommerce): An item listed in a store (can map to a NexPort product/section).
 * Fixed product: A specific course or bundle; used as concrete selections.
 * Open‑ended product: A selector product that lets an assignee pick from a list of fixed products at assignment time.
-* Mapping: The association between a NopCommerce product and a NexPort product/section, with store and subscription context.
+* Mapping: The association between a nopCommerce product and a NexPort product/section, with store and subscription context.
 * Auto‑redeem: Purchase creates/assigns training automatically after payment is completed.
 * Manual redeem: Customer must click Redeem on Order Details to create training.
 * Scholarship/Seat: A pre‑purchased entitlement that can be assigned to learners (e.g., libraries or organizations).

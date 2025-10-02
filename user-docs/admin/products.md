@@ -1,6 +1,6 @@
 # Products
 
-Products are NopCommerce items that can be sold in one or more stores. When mapped, they create or extend training in NexPort.
+Products are nopCommerce items that can be sold in one or more stores. When mapped, they create or extend training in NexPort.
 
 Categories
 1) `Catalog` → `Categories` → `Add new`.
@@ -16,7 +16,7 @@ Create a product
 6) Save.
 
 Copying products
-- Use `Copy product` to duplicate and optionally copy Nexport mappings.
+- Use `Copy product` to duplicate and optionally copy NexPort mappings.
 
 Category purchase restrictions (optional)
 - You can limit to one item per category or enable auto‑swap behavior (adds a new item and removes an existing item in the same category).
@@ -24,3 +24,8 @@ Category purchase restrictions (optional)
 Extensions
 - Mark products as `Extension only` to restrict purchase to extension scenarios if supported by your mapping.
 
+## See also (nopCommerce)
+- Catalog overview: https://docs.nopcommerce.com/en/running-your-store/catalog/index.html
+- Categories: https://docs.nopcommerce.com/en/running-your-store/catalog/categories.html
+- Add products: https://docs.nopcommerce.com/en/running-your-store/catalog/products/add-products.html
+- Downloadable products: https://docs.nopcommerce.com/en/running-your-store/catalog/products/downloadable-products.html

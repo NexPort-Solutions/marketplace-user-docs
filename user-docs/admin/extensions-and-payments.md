@@ -1,6 +1,6 @@
 # Extensions & Payments
 
-NexPort Marketplace inherits payment, promotions, and extension features from NopCommerce and augments them via the NexPort integration.
+NexPort Marketplace inherits payment, promotions, and extension features from nopCommerce and augments them via the NexPort integration.
 
 Payment gateways
 - Configure gateways supported by your customers (e.g., cards, purchase orders). Use secure settings per store.
@@ -14,3 +14,8 @@ Extensions
 Export and catalog outputs
 - Product lists can be exported (CSV) or printed to PDF where available, to support external review.
 
+## See also (nopCommerce)
+- Configure payments: https://docs.nopcommerce.com/en/getting-started/configure-payments/index.html
+- Payment methods: https://docs.nopcommerce.com/en/getting-started/configure-payments/payment-methods/index.html
+- Currencies: https://docs.nopcommerce.com/en/getting-started/configure-payments/advanced-configuration/currencies.html
+- Taxes: https://docs.nopcommerce.com/en/getting-started/configure-taxes/index.html

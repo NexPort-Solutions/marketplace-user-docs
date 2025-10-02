@@ -17,3 +17,6 @@ Store scoping and cloning
 Validation examples
 - Library stores can validate library card formats using regex. Configure a helpful validation message for failed entries.
 
+## See also (nopCommerce)
+- Customer roles: https://docs.nopcommerce.com/en/running-your-store/customer-management/customer-roles.html
+- Access control list: https://docs.nopcommerce.com/en/running-your-store/customer-management/access-control-list.html

@@ -12,11 +12,10 @@ Create fixed products
 2) Map it to the target NexPort item under `NexPort Product Mappings`.
 
 Use open‑ended products
-1) Create a NopCommerce product that represents the choice.
+1) Create a nopCommerce product that represents the choice.
 2) Configure its mapping to reference the allowed list of fixed products (as supported by your plugin/build).
 3) When assigning, select which fixed product the learner receives.
 
 Notes
 - Open‑ended assignments select from fixed products at redemption/assignment time.
 - Ensure all fixed options are published and mapped.
-

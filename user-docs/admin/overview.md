@@ -1,6 +1,6 @@
 # Admin Overview
 
-Administrators configure stores, products, and the mapping between NopCommerce (storefront) and NexPort Campus (training).
+Administrators configure stores, products, and the mapping between nopCommerce (storefront) and NexPort Campus (training).
 
 Access the admin area
 1) Sign in to your store with an admin account.
@@ -13,3 +13,5 @@ Core tasks
 - Manage orders, redemptions, and customer requests (e.g., cancellation)
 - Define registration fields and supplemental questions
 
+## See also (nopCommerce)
+- Admin panel overview: https://docs.nopcommerce.com/en/getting-started/admin-area-overview.html
