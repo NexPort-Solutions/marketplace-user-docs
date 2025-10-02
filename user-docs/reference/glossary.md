@@ -6,6 +6,6 @@
 - NexPort Campus: Learning platform for identity, enrollments, and training delivery.
 - Open‑ended product: A product that lets an assignee pick from a set of fixed products at assignment.
 - Scholarship/Seat: Pre‑purchased entitlement to be assigned to a learner.
-- Store: A branded storefront within NexPort Marketplace (nopCommerce).
+- Store: A branded storefront within <code class="expression">space.vars.PRODUCT_NAME</code> (nopCommerce).
 - Supplemental Info: Questions asked at purchase/redemption; can drive group membership.
 - Wholesale: Purchasing model for buying multiple seats via authorized agents.

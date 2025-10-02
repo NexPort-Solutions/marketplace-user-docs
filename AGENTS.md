@@ -20,6 +20,7 @@ Authoring Rules (GitBook‑Friendly)
 - Use blockquotes for callouts: `> Note`, `> Tip`, `> Warning`.
 - Keep pages focused; split very long topics when a natural break exists.
 - No secrets, tokens, or internal bug‑tracker links in public docs.
+ - Place End User pages under `end-user-guide/` and Admin pages under `admin-guide/`. GitBook may create these group folders automatically via UI; keep the repo aligned with that structure.
 
 Interleaving nopCommerce Docs (Single‑System Voice)
 - Treat NexPort Marketplace as a unified system built on nopCommerce. Write flows as “how to do X in NexPort Marketplace,” then add callouts for “NexPort enhancements” where behavior differs from stock nopCommerce.
@@ -46,9 +47,14 @@ Project Structure
 - `user-docs/` — GitBook docs root
   - `README.md` — Overview/landing page
   - `SUMMARY.md` — GitBook table of contents (required)
-  - `user/` — End‑user guides
-  - `admin/` — Admin guides
+  - `end-user-guide/` — End‑user guides (group)
+    - `README.md` — Group landing page (required for the heading)
+    - `*.md` — End‑user topics
+  - `admin-guide/` — Admin guides (group)
+    - `README.md` — Group landing page (required for the heading)
+    - `*.md` — Admin topics
   - `reference/` — Glossary and reference
+  - `nopcommerce/` — Curated external references
   - `assets/` — Images and static assets (create as needed)
 - Repo root — Reference source materials only (e.g., whitepaper PDF, workflow docs, test suite). Do not reference internal links/IDs in published docs.
 
@@ -61,8 +67,9 @@ Style & Terminology
 
 Navigation Updates
 - Any new page must be added to `user-docs/SUMMARY.md` to appear in GitBook navigation.
+- Group headings must point to a folder `README.md` (e.g., `end-user-guide/README.md`, `admin-guide/README.md`). GitBook uses that `README.md` as the main page for the heading.
 - Use lower‑case filenames with hyphens: `my-new-page.md`.
- - Where relevant, include a short "See also (nopCommerce)" list at the bottom of the page.
+- Where relevant, include a short "See also (nopCommerce)" list at the bottom of the page.
 
 Content Sources (internal)
 - Whitepaper (`Nexport Market Whitepaper.pdf`)
@@ -71,7 +78,7 @@ Content Sources (internal)
 - When importing details, rewrite for customer‑facing clarity; exclude internal case IDs/links.
 
 Operational Notes
-- Do not document or recommend manually setting NopCommerce order status to Complete for mapped products (breaks redemption).
+- Do not document or recommend manually setting nopCommerce order status to Complete for mapped products (breaks redemption).
 - Call out store‑level differences when features vary by brand/environment.
 - Use examples with placeholder or example domains; avoid exposing real customer data.
 
@@ -87,9 +94,16 @@ Contribution Workflow
 
 Known Page Map (baseline under `user-docs/`)
 - Overview: `README.md`
-- End User: `user/` (getting started, registration, purchasing, redeeming, scholarships, FAQ)
-- Admin: `admin/` (overview, stores, products, mapping, fixed vs open‑ended, scholarships/seats, wholesale, supplemental info, registration fields, orders, extensions/payments, reporting)
-- Reference: `reference/glossary.md`
+- End User: `end-user-guide/` (getting started, registration, purchasing, redeeming, scholarships, FAQ)
+- Admin: `admin-guide/` (overview, stores, products, mapping, fixed vs open‑ended, scholarships/seats, wholesale, supplemental info, registration fields, orders, extensions/payments, reporting)
+- Reference: `reference/glossary.md`, `nopcommerce/index.md`
 
 Contact
 - If requirements change (new flows, labels), update both the relevant page(s) and this AGENTS file when guidance needs to change.
+
+GitBook Variables
+- Use variables defined in `user-docs/.gitbook/vars.yaml` via inline expressions: `<code class="expression">space.vars.PRODUCT_NAME</code>`.
+- Prefer variables for frequently repeated names (e.g., product name) rather than hard‑coding strings across pages.
+- If you add a new variable in GitBook, reference it as `space.vars.YOUR_KEY` in Markdown. Coordinate default values with the docs team.
+- Do not commit secrets into variables; GitBook variables are for display content only.
+- Example usage appears in `user-docs/README.md` and several pages.

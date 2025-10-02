@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to NexPort Marketplace. Many organizations run multiple branded stores. This guide helps you find a store, sign in, and begin purchasing training.
+Welcome to <code class="expression">space.vars.PRODUCT_NAME</code>. Many organizations run multiple branded stores. This guide helps you find a store, sign in, and begin purchasing training.
 
 What you need
 - A store URL from your organization (example: `https://nexportmarket.com`)
@@ -16,4 +16,3 @@ Steps
 Tips
 - Stores are brand‑specific. Prices, products, and fields can vary per store.
 - If your organization gave you a promo code or scholarship, keep it handy for checkout or redemption.
-

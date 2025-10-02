@@ -1,6 +1,6 @@
 # Extensions & Payments
 
-NexPort Marketplace inherits payment, promotions, and extension features from nopCommerce and augments them via the NexPort integration.
+<code class="expression">space.vars.PRODUCT_NAME</code> inherits payment, promotions, and extension features from nopCommerce and augments them via the NexPort integration.
 
 Payment gateways
 - Configure gateways supported by your customers (e.g., cards, purchase orders). Use secure settings per store.

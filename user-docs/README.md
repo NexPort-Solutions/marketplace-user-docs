@@ -11,7 +11,7 @@ This documentation covers:
 * End‑user guidance for browsing, purchasing, and redeeming training
 * Admin guidance for configuring stores, products, mappings to NexPort, and workflows (scholarships, wholesale, libraries)
 
-> Note: Hosted‑only. This documentation applies to hosted NexPort Marketplace tenants. Installation, server configuration, hosting provider content, private cloud, and premium services are out of scope.
+> Note: Hosted‑only. This documentation applies to hosted <code class="expression">space.vars.PRODUCT_NAME</code> tenants. Installation, server configuration, hosting provider content, private cloud, and premium services are out of scope.
 
 Key capabilities
 
@@ -27,7 +27,7 @@ If you’re new, start with End User → Getting Started, then see Admin → Pro
 
 ## Terminology
 
-* Store: A branded storefront (nopCommerce) within NexPort Marketplace.
+* Store: A branded storefront (nopCommerce) within <code class="expression">space.vars.PRODUCT_NAME</code>.
 * Product (nopCommerce): An item listed in a store (can map to a NexPort product/section).
 * Fixed product: A specific course or bundle; used as concrete selections.
 * Open‑ended product: A selector product that lets an assignee pick from a list of fixed products at assignment time.

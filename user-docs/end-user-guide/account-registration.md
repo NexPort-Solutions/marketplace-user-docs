@@ -1,6 +1,6 @@
 # Account & Registration
 
-You can sign in or register directly in a store. NexPort Marketplace links your account to NexPort Campus so training can be delivered and tracked.
+You can sign in or register directly in a store. <code class="expression">space.vars.PRODUCT_NAME</code> links your account to NexPort Campus so training can be delivered and tracked.
 
 Registering a new account
 1) Go to your store URL and click `Register`.
@@ -15,4 +15,3 @@ Signing in with an existing NexPort Campus account
 Troubleshooting
 - If you can’t access Marketplace but your Campus account works, contact your store admin; some admin permission policies can affect access.
 - Library stores may validate library card numbers at registration. Follow on‑screen instructions if your card format is rejected.
-

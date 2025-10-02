@@ -1,6 +1,6 @@
 # nopCommerce Reference (Hosted)
 
-This section provides curated links to nopCommerce admin documentation relevant to hosted NexPort Marketplace tenants. Installation, upgrading, hosting, private cloud, and premium services are intentionally omitted.
+This section provides curated links to nopCommerce admin documentation relevant to hosted <code class="expression">space.vars.PRODUCT_NAME</code> tenants. Installation, upgrading, hosting, private cloud, and premium services are intentionally omitted.
 
 Admin area
 - Admin panel overview: https://docs.nopcommerce.com/en/getting-started/admin-area-overview.html
