@@ -17,4 +17,4 @@ Organization purchases allow authorized purchasing agents to buy multiple seats 
 - Use store‑level sale model = wholesale (setting label) to enable appropriate UI and flows.
 
 ## Related
-- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats/README.md
+* [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)

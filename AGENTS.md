@@ -24,6 +24,7 @@ Authoring Rules (GitBook‑Friendly)
 - Keep pages focused; split very long topics when a natural break exists.
 - No secrets, tokens, or internal bug‑tracker links in public docs.
  - Place End User pages under `end-user-guide/` and Admin pages under `admin-guide/`. GitBook may create these group folders automatically via UI; keep the repo aligned with that structure.
+ - Internal links: always use Markdown link syntax with relative paths (e.g., `[Orders & Fulfillment](orders.md)` or `[Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)` when linking to a grouped page).
 
 Interleaving nopCommerce Docs (Single‑System Voice)
 - Treat NexPort Marketplace as a unified system built on nopCommerce. Write flows as “how to do X in NexPort Marketplace,” then add callouts for “NexPort enhancements” where behavior differs from stock nopCommerce.

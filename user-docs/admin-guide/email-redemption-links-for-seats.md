@@ -32,6 +32,6 @@ Purchasing agents and admins can distribute seats by emailing redemption links t
 
 ## Related
 
-* Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats/README.md
+* [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
 * [Purchasing Groups](purchasing-groups.md)
-* Orders & Fulfillment: orders.md
+* [Orders & Fulfillment](orders.md)
