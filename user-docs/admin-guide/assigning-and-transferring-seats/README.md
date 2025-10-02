@@ -46,11 +46,11 @@ Troubleshooting
 
 Related
 
-* Returns and Refunds for Seats (admin): returns-and-refunds-for-seats.md
-* Email Redemption Links (admin): email-redemption-links.md
-* Purchasing Groups (admin): purchasing-groups.md
-* Orders & Fulfillment (admin): orders.md
-* NexPort Mapping (admin): nexport-mapping.md
+* Returns and Refunds for Seats (admin): ../returns-and-refunds-for-seats.md
+* Email Redemption Links for Seats (admin): ../email-redemption-links-for-seats.md
+* Purchasing Groups (admin): ../purchasing-groups.md
+* Orders & Fulfillment (admin): ../orders.md
+* NexPort Mapping (admin): ../nexport-mapping.md
 
 Status flow (Admin)
 

@@ -29,6 +29,6 @@ Troubleshooting
 - Returned seat not available to reassign: confirm the return completed and the enrollment was removed.
 
 Related
-- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats.md
+- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats/README.md
 - Orders & Fulfillment: orders.md
 - Purchasing Groups: purchasing-groups.md

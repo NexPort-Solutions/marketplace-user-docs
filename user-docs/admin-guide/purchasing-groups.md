@@ -20,6 +20,6 @@ Purchasing without a group
 - Admins can assign the Owner Group after the order is placed, before assignment.
 
 Related
-- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats.md
+- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats/README.md
 - Email Redemption Links for Seats: email-redemption-links-for-seats.md
 - Returns and Refunds for Seats: returns-and-refunds-for-seats.md

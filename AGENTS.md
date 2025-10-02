@@ -15,7 +15,10 @@ Location (Important)
 Authoring Rules (GitBook‑Friendly)
 - Markdown only. Avoid raw HTML and complex embeds.
 - Use relative links between pages (e.g., `../admin/products.md`).
-- Keep headings concise; prefer one H1 per page, then H2/H3 sparingly.
+- Keep headings concise and semantic.
+- Heading hierarchy: one H1 (`#`) per page for the title. Use H2 (`##`) for top‑level sections, H3 (`###`) for subsections, and H4 (`####`) only when truly necessary.
+- Do not skip heading levels (e.g., don’t jump from H2 to H4). Avoid using bold text as a “fake” heading.
+- Align the page H1 with the intent of the item in `SUMMARY.md` (the SUMMARY label can be longer; the H1 should stay concise).
 - Bullets should be short, one line where possible.
 - Use blockquotes for callouts: `> Note`, `> Tip`, `> Warning`.
 - Keep pages focused; split very long topics when a natural break exists.
@@ -72,6 +75,14 @@ Navigation Updates
 - Use lower‑case filenames with hyphens: `my-new-page.md`.
 - Where relevant, include a short "See also (nopCommerce)" list at the bottom of the page.
 
+Headings with Subpages
+- It’s valid (and common) for GitBook to turn a page into a folder with a `README.md` and subpages (e.g., `admin-guide/assigning-and-transferring-seats/README.md`).
+- When this happens, update any internal links to point to the folder path or its `README.md` explicitly (e.g., `assigning-and-transferring-seats/README.md`).
+- Subpages live under the same folder. Add them to `SUMMARY.md` beneath the parent heading if you want them surfaced in the sidebar.
+ - SUMMARY example:
+   - `[Assigning and Transferring NexPort Campus Seats](admin-guide/assigning-and-transferring-seats/README.md)`
+   - `  * [Sub Page Test](admin-guide/assigning-and-transferring-seats/sub-page-test.md)`
+
 Content Sources (internal)
 - Whitepaper (`Nexport Market Whitepaper.pdf`)
 - Workflow notes (`SH Workflows in Marketplace.docx`, `SHCOE Workflows in Marketplace.docx`)
@@ -108,3 +119,19 @@ GitBook Variables
 - If you add a new variable in GitBook, reference it as `space.vars.YOUR_KEY` in Markdown. Coordinate default values with the docs team.
 - Do not commit secrets into variables; GitBook variables are for display content only.
 - Example usage appears in `user-docs/README.md` and several pages.
+
+Mermaid Diagrams
+- Use fenced code blocks with the `mermaid` language fence:
+  ```
+  ```mermaid
+  flowchart LR
+    A[Available]
+    B["Awaiting (emailed)"]
+    C[Assigned / Redeemed]
+    A -- Assign --> C
+    A -- Email redemption --> B
+  ```
+  ```
+- Quote node labels that include parentheses, slashes, or special punctuation to ensure GitBook’s Mermaid renderer parses them (e.g., `B["Awaiting (emailed)"]`).
+- Keep separate diagrams where admin and store (purchasing agent) flows differ; label sections clearly (e.g., "Status flow (Admin)" and "Status flow (Store)").
+- Validate diagrams in GitBook after sync; if rendering fails, check for quoting on node labels and consistent code fences.

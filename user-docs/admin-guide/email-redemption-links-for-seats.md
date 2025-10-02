@@ -26,6 +26,6 @@ Tips
 - Supplemental questions (if configured) must be answered before the seat is redeemed.
 
 Related
-- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats.md
+- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats/README.md
 - Purchasing Groups: purchasing-groups.md
 - Orders & Fulfillment: orders.md

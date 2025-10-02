@@ -16,7 +16,7 @@ Status flow (Store / Purchasing Agent)
 ```mermaid
 flowchart LR
     A[Available]
-    B[Awaiting (emailed)]
+    B["Awaiting (emailed)"]
     C[Assigned / Redeemed]
     D[Return Pending]
 
@@ -36,6 +36,6 @@ Tips
 - Training links only appear after the seat is assigned/redeemed.
 
 Related
-- Assigning and Transferring NexPort Campus Seats (admin): ../admin-guide/assigning-and-transferring-seats.md
+- Assigning and Transferring NexPort Campus Seats (admin): ../admin-guide/assigning-and-transferring-seats/README.md
 - Email Redemption Links for Seats (admin): ../admin-guide/email-redemption-links-for-seats.md
 - Returns and Refunds for Seats (admin): ../admin-guide/returns-and-refunds-for-seats.md
