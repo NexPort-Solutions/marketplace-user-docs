@@ -24,6 +24,13 @@ Category purchase restrictions (optional)
 Extensions
 - Mark products as `Extension only` to restrict purchase to extension scenarios if supported by your mapping.
 
+NexPort mapping (overview)
+- After you create/save a product, open it and scroll to the `NexPort Product Mappings` section to connect this nopCommerce product to a NexPort product/section.
+- Create the Default Mapping first, then add per‑store mappings as needed.
+- Choose redemption mode: `Auto‑redeem` for automatic assignment after payment, or keep manual redemption via the order’s Redeem link.
+- Optionally set the Subscription Organization and include Supplemental Info questions if your workflow requires them.
+- For detailed steps and options, see: [NexPort Mapping](nexport-mapping.md)
+
 ## See also (nopCommerce)
 - Catalog overview: https://docs.nopcommerce.com/en/running-your-store/catalog/index.html
 - Categories: https://docs.nopcommerce.com/en/running-your-store/catalog/categories.html

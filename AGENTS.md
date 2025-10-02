@@ -60,6 +60,7 @@ Project Structure
 
 Style & Terminology
 - Product names: NexPort Marketplace, NexPort Campus, nopCommerce.
+- Prefer conceptual phrasing like “Organization purchases”, “seats”, and “Assigning and Transferring NexPort Campus Seats” in page titles. Reserve “wholesale” for explicit UI/setting labels (e.g., sale model = wholesale).
 - Use Title Case for section headers; sentence case for body text.
 - Prefer active voice and present tense.
 - Keep link text meaningful (avoid “click here”).

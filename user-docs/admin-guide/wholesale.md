@@ -1,6 +1,6 @@
-# Wholesale & Purchasing Agents
+# Organization Purchases & Purchasing Agents
 
-Wholesale allows authorized purchasing agents to buy multiple seats in a product for assignment to others.
+Organization purchases allow authorized purchasing agents to buy multiple seats in a product for assignment to others.
 
 Agreements and eligibility
 - Require a wholesale or purchasing agent agreement on file before enabling bulk purchasing.
@@ -14,5 +14,7 @@ Repurchase options
 
 Best practices
 - Separate agent/assigner identities from learner identities when possible.
-- Use store‑level sale model = wholesale to enable appropriate UI and flows.
+- Use store‑level sale model = wholesale (setting label) to enable appropriate UI and flows.
 
+Related
+- Assigning and Transferring NexPort Campus Seats: assigning-and-transferring-seats.md
