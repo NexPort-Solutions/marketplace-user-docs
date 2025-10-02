@@ -31,8 +31,7 @@ Products are nopCommerce items that can be sold in one or more stores. When mapp
 - Optionally set the Subscription Organization and include Supplemental Info questions if your workflow requires them.
 - For detailed steps and options, see: [NexPort Mapping](nexport-mapping.md)
 
-## See also (nopCommerce)
-- Catalog overview: https://docs.nopcommerce.com/en/running-your-store/catalog/index.html
-- Categories: https://docs.nopcommerce.com/en/running-your-store/catalog/categories.html
-- Add products: https://docs.nopcommerce.com/en/running-your-store/catalog/products/add-products.html
-- Downloadable products: https://docs.nopcommerce.com/en/running-your-store/catalog/products/downloadable-products.html
+## Related
+* [NexPort Mapping](nexport-mapping.md)
+* [Fixed vs Open‑Ended Products](open-vs-fixed-products.md)
+* [Orders & Fulfillment](orders.md)

@@ -13,5 +13,7 @@ Administrators configure stores, products, and the mapping between nopCommerce (
 - Manage orders, redemptions, and customer requests (e.g., cancellation)
 - Define registration fields and supplemental questions
 
-## See also (nopCommerce)
-- Admin panel overview: https://docs.nopcommerce.com/en/getting-started/admin-area-overview.html
+## Related
+* [Stores & Branding](stores.md)
+* [Products](products.md)
+* [Orders & Fulfillment](orders.md)

@@ -23,7 +23,7 @@ Each branded store has independent theme, catalog, pricing, and policies.
 - Store‑level defaults (like subscription org) are used when product mappings don’t override them.
 - Some features (e.g., custom registration fields) can be scoped to specific stores.
 
-## See also (nopCommerce)
-- Your store information: https://docs.nopcommerce.com/en/getting-started/advanced-configuration/your-store-information.html
-- Email accounts: https://docs.nopcommerce.com/en/getting-started/email-accounts.html
-- Security settings: https://docs.nopcommerce.com/en/getting-started/advanced-configuration/security-settings.html
+## Related
+* [Admin Overview](overview.md)
+* [Registration Fields](registration-fields.md)
+* [Orders & Fulfillment](orders.md)

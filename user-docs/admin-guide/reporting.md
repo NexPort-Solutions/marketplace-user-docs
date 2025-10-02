@@ -12,5 +12,6 @@ Training outcomes
 Tips
 - Align store sales windows with subscription periods in NexPort to ensure consistent reporting.
 
-## See also (nopCommerce)
-- Orders (filters/exports): https://docs.nopcommerce.com/en/running-your-store/order-management/orders.html
+## Related
+* [Orders & Fulfillment](orders.md)
+* [Purchasing Groups](purchasing-groups.md)

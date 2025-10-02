@@ -27,25 +27,21 @@ Authoring Rules (GitBook‑Friendly)
  - Internal links: always use Markdown link syntax with relative paths (e.g., `[Orders & Fulfillment](orders.md)` or `[Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)` when linking to a grouped page).
 
 Interleaving nopCommerce Docs (Single‑System Voice)
-- Treat NexPort Marketplace as a unified system built on nopCommerce. Write flows as “how to do X in NexPort Marketplace,” then add callouts for “NexPort enhancements” where behavior differs from stock nopCommerce.
-- Do not duplicate nopCommerce content verbatim. Summarize briefly in our words, then link to the canonical page at `https://docs.nopcommerce.com/en/...` for deeper detail.
-- Add a short "See also (nopCommerce)" section at the end of relevant admin pages with 2–4 curated links.
-- When a nopCommerce feature is required by a NexPort feature (e.g., Categories before Products), mention that dependency inline and link to the relevant nopCommerce page.
+- Treat NexPort Marketplace as a unified system built on nopCommerce. Write flows as “how to do X in NexPort Marketplace,” with callouts for “NexPort enhancements” where behavior differs from stock nopCommerce.
+- Do not copy or link to nopCommerce docs in published content. Instead, incorporate the necessary guidance directly into these pages in hosted context.
+- Use a short “Related” section at the bottom of pages to link to other internal topics only.
+- When a nopCommerce feature is required by a NexPort feature (e.g., categories before products), mention that dependency inline and describe the relevant steps succinctly.
 
-Out‑of‑Scope nopCommerce Topics (Hosted‑Only Policy)
+Out‑of‑Scope (Hosted‑Only Policy)
 - We are a fully hosted solution. Exclude or avoid linking to:
   - Installation and upgrading guides (local, Windows/Linux, Azure, pre‑installed)
   - Hosting provider lists, private cloud, premium services, “hire a partner” marketing pages
   - Server configuration content not applicable to hosted tenants
-- It is OK to link to admin‑area usage topics (catalog, orders, customers, discounts, ACL, security settings) that apply within our hosted environment.
+- Do not link to external nopCommerce docs. Cover applicable admin‑area usage topics (catalog, orders, customers, discounts, ACL, security) within our docs.
 
-Linking Rules for nopCommerce
-- Prefer `docs.nopcommerce.com/en/...` URLs (not raw GitHub).
-- Link only to sections relevant to day‑to‑day administration:
-  - Admin area overview; Catalog (products, categories, attributes, downloadable/recurring/rental as applicable); Orders (order management, returns); Customers (roles, ACL);
-  - Payments (payment methods, currencies), Taxes (if applicable), Discounts & coupons; Content/messages when used.
+Linking Policy
+- Internal links only between our pages (relative paths). No external links to nopCommerce docs in published content.
 - Do not link to installation, upgrade, hosting, private cloud, or premium services.
-- If a link would expose features we don’t support in hosted plans, omit it or add a clarifying note.
 
 Project Structure
 - `user-docs/` — GitBook docs root
@@ -58,8 +54,8 @@ Project Structure
     - `README.md` — Group landing page (required for the heading)
     - `*.md` — Admin topics
   - `reference/` — Glossary and reference
-  - `nopcommerce/` — Curated external references
-  - `assets/` — Images and static assets (create as needed)
+  - `nopCommerce-Docs-master/` — Local copy of nopCommerce docs (editor reference only; do not publish or link)
+- `assets/` — Images and static assets (create as needed)
 - Repo root — Reference source materials only (e.g., whitepaper PDF, workflow docs, test suite). Do not reference internal links/IDs in published docs.
 
 Style & Terminology
@@ -75,6 +71,12 @@ Navigation Updates
 - Group headings must point to a folder `README.md` (e.g., `end-user-guide/README.md`, `admin-guide/README.md`). GitBook uses that `README.md` as the main page for the heading.
 - Use lower‑case filenames with hyphens: `my-new-page.md`.
 - Where relevant, include a short "See also (nopCommerce)" list at the bottom of the page.
+
+Admin Guide Organization
+- Under Admin Guide, structure topics into two sections aligned with nopCommerce:
+  - Getting Started: initial configuration and setup (e.g., Admin Overview, Stores & Branding, Extensions & Payments, Registration Fields, Supplemental Info & Groups).
+  - Running Your Store: catalog, mapping, orders, organization purchases, and seats (e.g., Products, NexPort Mapping, Assigning/Transferring Seats, Email Redemption Links, Purchasing Groups, Orders, Reporting).
+- When adding a new admin topic, choose the appropriate section and update `user-docs/SUMMARY.md` accordingly.
 
 Headings with Subpages
 - It’s valid (and common) for GitBook to turn a page into a folder with a `README.md` and subpages (e.g., `admin-guide/assigning-and-transferring-seats/README.md`).

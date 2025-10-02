@@ -17,7 +17,6 @@ Order management covers payment status, customer requests, and redemption. For m
 - If redemption is blocked by unanswered supplemental questions, the customer should answer them from the Order Details page.
 - Use integration logs/webhooks to verify subscription and enrollment updates in NexPort Campus.
 
-## See also (nopCommerce)
-- Orders: https://docs.nopcommerce.com/en/running-your-store/order-management/orders.html
-- Return requests: https://docs.nopcommerce.com/en/running-your-store/order-management/return-requests.html
-- Shipping management: https://docs.nopcommerce.com/en/running-your-store/order-management/shipping-management.html
+## Related
+* [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
+* [Returns and Refunds for Seats](returns-and-refunds-for-seats.md)
