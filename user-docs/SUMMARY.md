@@ -9,6 +9,7 @@
   * [Scholarships & Codes](end-user-guide/scholarships-and-codes.md)
   * [FAQ](end-user-guide/faq.md)
   * [Just a Test Page](end-user-guide/just-a-test-page.md)
+  * [Managing Seats as a Purchasing Agent](end-user-guide/purchasing-agents-manage-seats.md)
 * [Admin Guide](admin-guide/README.md)
   * [Admin Overview](admin-guide/overview.md)
   * [Stores & Branding](admin-guide/stores.md)

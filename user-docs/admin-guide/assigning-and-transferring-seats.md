@@ -43,3 +43,26 @@ Related
 - Purchasing Groups (admin): purchasing-groups.md
 - Orders & Fulfillment (admin): orders.md
 - NexPort Mapping (admin): nexport-mapping.md
+
+Status flow (Admin)
+
+```mermaid
+flowchart LR
+    A[Available]
+    B[Awaiting (emailed)]
+    C[Assigned / Redeemed]
+    D[Return Pending]
+
+    A -- Assign --> C
+    A -- Email redemption --> B
+    B -- Recipient redeems --> C
+    B -- Cancel email --> A
+    C -- Unassign --> A
+    C -- Request return --> D
+    D -- Admin approves refund --> A
+    D -- Admin denies return --> C
+
+    %% Notes:
+    %% - Transfer is Unassign then Assign to a new learner.
+    %% - If learner has an active enrollment, 'Delete Finished' cannot be used.
+```
