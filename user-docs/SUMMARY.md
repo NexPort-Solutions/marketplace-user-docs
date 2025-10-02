@@ -1,14 +1,14 @@
 # Table of contents
 
 * [Overview](README.md)
-* End User Guide
+* [End User Guide](end-user-guide/README.md)
   * [Getting Started](user/getting-started.md)
   * [Account & Registration](user/account-registration.md)
-  * [Browsing and Purchasing](user/browsing-and-purchasing.md)
+  * [Browsing and Purchasing in NexPort Marketplace](user/browsing-and-purchasing.md)
   * [Redeeming Training](user/redeem-training.md)
   * [Scholarships & Codes](user/scholarships-and-codes.md)
   * [FAQ](user/faq.md)
-* Admin Guide
+* [Admin Guide](admin-guide/README.md)
   * [Admin Overview](admin/overview.md)
   * [Stores & Branding](admin/stores.md)
   * [Products](admin/products.md)
@@ -21,6 +21,6 @@
   * [Orders & Fulfillment](admin/orders.md)
   * [Extensions & Payments](admin/extensions-and-payments.md)
   * [Reporting & Analytics](admin/reporting.md)
-* Reference
+* [Reference](reference/README.md)
   * [Glossary](reference/glossary.md)
   * [nopCommerce Reference (Hosted)](nopcommerce/index.md)
