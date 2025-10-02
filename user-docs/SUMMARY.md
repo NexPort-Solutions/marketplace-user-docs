@@ -8,6 +8,7 @@
   * [Redeeming Training](user/redeem-training.md)
   * [Scholarships & Codes](user/scholarships-and-codes.md)
   * [FAQ](user/faq.md)
+  * [Just a Test Page](end-user-guide/just-a-test-page.md)
 * [Admin Guide](admin-guide/README.md)
   * [Admin Overview](admin/overview.md)
   * [Stores & Branding](admin/stores.md)
