@@ -11,7 +11,7 @@
   * [Just a Test Page](end-user-guide/just-a-test-page.md)
   * [Managing Seats as a Purchasing Agent](end-user-guide/purchasing-agents-manage-seats.md)
 * [Admin Guide](admin-guide/README.md)
-  * Getting Started
+  * [Getting Started](admin-guide/getting-started/README.md)
     * [Admin Overview](admin-guide/overview.md)
     * [Stores & Branding](admin-guide/stores.md)
     * [Extensions & Payments](admin-guide/extensions-and-payments/README.md)
@@ -22,7 +22,7 @@
       * [Exports & Statements](admin-guide/extensions-and-payments/exports-and-statements.md)
     * [Registration Fields](admin-guide/registration-fields.md)
     * [Supplemental Info & Groups](admin-guide/supplemental-info.md)
-  * Running Your Store
+  * [Running Your Store](admin-guide/running-your-store/README.md)
     * [Products](admin-guide/products.md)
     * [Fixed vs Open‑Ended Products](admin-guide/open-vs-fixed-products.md)
     * [NexPort Mapping](admin-guide/nexport-mapping.md)
