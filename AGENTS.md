@@ -132,6 +132,14 @@ GitBook Variables
 - Do not commit secrets into variables; GitBook variables are for display content only.
 - Example usage appears in `user-docs/README.md` and several pages.
 
+Available variables (current)
+- `PRODUCT_NAME`: Display name of the product (e.g., NexPort Marketplace)
+- `COMPANY`: Company name (e.g., NexPort Solutions)
+- `SupportEmail`: Support email address
+- `SupportUrl`: Support contact URL
+- `TrustPage`: Trust/Security page URL
+- `AccessibilityPage`: Accessibility page URL
+
 Mermaid Diagrams
 - Use fenced code blocks with the `mermaid` language fence:
   ```
