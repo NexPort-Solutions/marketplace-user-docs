@@ -19,7 +19,8 @@ Purchasing without a group
 - Some stores allow purchasing agents to buy seats without specifying a group at checkout.
 - Admins can assign the Owner Group after the order is placed, before assignment.
 
-Related
-* [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
-* [Email Redemption Links for Seats](email-redemption-links-for-seats.md)
-* [Returns and Refunds for Seats](returns-and-refunds-for-seats.md)
+## Related
+- [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
+- [Email Redemption Links for Seats](email-redemption-links-for-seats.md)
+- [Returns and Refunds for Seats](returns-and-refunds-for-seats.md)
+- [Orders & Fulfillment](orders.md)

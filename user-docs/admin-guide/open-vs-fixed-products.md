@@ -19,3 +19,8 @@
 ## Notes
 - Open‑ended assignments select from fixed products at redemption/assignment time.
 - Ensure all fixed options are published and mapped.
+
+## Related
+- [Products](products.md)
+- [NexPort Mapping](nexport-mapping.md)
+- [Orders & Fulfillment](orders.md)

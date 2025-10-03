@@ -62,6 +62,41 @@ Mapped (training) products create entitlements in NexPort Campus. The following 
 - Seat won’t unassign due to existing enrollment: Resolve the learner’s existing enrollment state per policy, then retry.
 - Status looks wrong after a refund: Reopen the order to refresh; if still incorrect, review payment gateway logs and retry supported actions.
 
+## Shipping management
+- Shipping applies only to physical goods. Mapped NexPort items are digital and set Shipping not required.
+- Shipping statuses you may see on mixed orders:
+  - Shipping not required: Digital-only lines (e.g., mapped training).
+  - Not yet shipped → Partially shipped → Shipped → Delivered: Progression for physical items as shipments are created and completed.
+- Use `Add shipment` for physical lines; include tracking numbers and mark Shipped/Delivered as appropriate. Do not create shipments for mapped training lines.
+
+## Inventory and stock
+- Mapped training products usually do not track stock. Use “Don’t track inventory” for these items.
+- Physical products can use standard inventory tracking.
+- Open‑ended selector products should not track inventory; track inventory at the underlying fixed products if needed.
+- Avoid adjusting quantities post‑payment on mapped items; manage availability via seats (assign/unassign/return) instead.
+
+## Order settings (hosted‑safe subset)
+- Returns and refunds: Enabled per store policy to support reclaiming seats for mapped items.
+- PDF invoices and notifications: Can be enabled; these do not impact redemption.
+- Payment capture: Some gateways authorize at checkout and capture later. Seat creation occurs after capture when Auto‑redeem is enabled.
+- Checkout guest/anonymous: Typically disabled for B2B training flows; confirm with your tenant configuration.
+> Note: Some settings are centrally managed in hosted environments. Contact support before changing global order settings.
+
+## Checkout attributes vs Supplemental Info
+- Checkout attributes collect extra data during checkout (applies to the order as a whole).
+- Supplemental Info (Marketplace feature) collects data at seat/redeem time and can drive group membership or mapping behavior.
+- Guidance:
+  - Prefer Supplemental Info for learner‑specific questions required for enrollment.
+  - Use checkout attributes for order‑level metadata that doesn’t affect mapping (e.g., internal PO number).
+
+## Status reference (quick)
+- Order status: Pending, Processing, Complete, Cancelled.
+  - For mapped items, do not force Complete manually.
+- Payment status: Pending, Authorized, Paid, Partially refunded, Refunded, Voided.
+  - Authorized → Capture to settle funds; Paid enables Refund/Partial refund.
+- Shipping status: Shipping not required, Not yet shipped, Partially shipped, Shipped, Delivered.
+  - Digital mapped items report Shipping not required.
+
 ## Related
 - [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
 - [Email Redemption Links for Seats](email-redemption-links-for-seats.md)

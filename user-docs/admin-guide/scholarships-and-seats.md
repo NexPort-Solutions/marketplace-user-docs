@@ -18,3 +18,9 @@ Scholarships (seats) represent pre‑purchased entitlements that can be assigned
 ## Monitoring
 - Track available seats by order or product.
 - Export reports or use store analytics to reconcile assignments.
+
+## Related
+- [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
+- [Email Redemption Links for Seats](email-redemption-links-for-seats.md)
+- [Purchasing Groups](purchasing-groups.md)
+- [Orders & Fulfillment](orders.md)

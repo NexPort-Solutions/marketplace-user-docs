@@ -30,3 +30,8 @@ Mapping connects a nopCommerce product to a NexPort product/section and defines 
 ## Best practices
 - Prefer auto‑redeem for frictionless learner experiences unless supplemental intake is required.
 - Do not change nopCommerce order status manually; let the plugin update the order when redemption occurs.
+
+## Related
+- [Products](products.md)
+- [Orders & Fulfillment](orders.md)
+- [Assigning and Transferring NexPort Campus Seats](assigning-and-transferring-seats/README.md)
