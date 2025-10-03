@@ -14,7 +14,12 @@
   * Getting Started
     * [Admin Overview](admin-guide/overview.md)
     * [Stores & Branding](admin-guide/stores.md)
-    * [Extensions & Payments](admin-guide/extensions-and-payments.md)
+    * [Extensions & Payments](admin-guide/extensions-and-payments/README.md)
+      * [Payment Methods & Gateways](admin-guide/extensions-and-payments/payment-methods.md)
+      * [Discounts & Coupons](admin-guide/extensions-and-payments/discounts-and-coupons.md)
+      * [Currencies & Taxes](admin-guide/extensions-and-payments/currencies-and-taxes.md)
+      * [Enrollment Extensions](admin-guide/extensions-and-payments/enrollment-extensions.md)
+      * [Exports & Statements](admin-guide/extensions-and-payments/exports-and-statements.md)
     * [Registration Fields](admin-guide/registration-fields.md)
     * [Supplemental Info & Groups](admin-guide/supplemental-info.md)
   * Running Your Store
